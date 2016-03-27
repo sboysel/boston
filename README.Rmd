@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 Spatial data for election wards and precincts for the City of Boston, packaged 
 for `R`.  See
 [here](https://www.cityofboston.gov/maps/pdfs/ward_and_precincts.pdf) for
-reference.  Source data prepared by @obrien_dan_regional_2015 .
+reference.  Source data prepared by @obrien_dan_regional_2015.
 
 ## Usage
 
