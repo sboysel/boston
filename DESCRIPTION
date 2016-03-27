@@ -1,0 +1,14 @@
+Package: boston
+Type: Package
+Title: Spatial Data for the City of Boston
+Version: 0.1.0
+Authors@R: person("Sam", "Boysel", email = "sboysel@gmail.com", role = c("aut", "cre"))
+Description: Administrative boundaries for the election wards and precincts for
+    the city of Boston.
+URL: https://github.com/sboysel/boston
+BugReports: http://github.com/sboysel/boston/issues
+Depends:
+    R (>= 3.2.2)
+License: CC0
+LazyData: TRUE
+RoxygenNote: 5.0.1

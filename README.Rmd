@@ -1,0 +1,39 @@
+---
+bibliography: references.bib
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figures/"
+)
+```
+
+# boston
+
+[![Travis-CI Build Status](https://travis-ci.org/sboysel/boston.svg?branch=master)](https://travis-ci.org/sboysel/boston)
+<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+  <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
+</a>
+
+Spatial data for election wards and precincts for the City of Boston, packaged 
+for `R`.  See
+[here](https://www.cityofboston.gov/maps/pdfs/ward_and_precincts.pdf) for
+reference.  Source data prepared by @obrien_dan_regional_2015 .
+
+## Usage
+
+```{r, eval=FALSE}
+# devtools::install_packages("sboysel/boston")
+library(boston)
+plot(precincts)
+plot(wards, border = "red", add = TRUE)
+```
+
+# Data Source
